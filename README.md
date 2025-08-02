@@ -1,43 +1,34 @@
-Technical Indicators
+# Technical Indicators
 
-Trend Indicators
+## Trend Indicators
 
-Moving Averages
+### Moving Averages
+- **SMA** (Simple Moving Average)
+- **EMA** (Exponential Moving Average)  
+  Formula: *K = 2 / (n + 1)*
 
-SMA (Simple Moving Average)
+### MACD (Moving Average Convergence Divergence)
 
-EMA (Exponential Moving Average)Formula: K = 2 / (n + 1)
+### Parabolic SAR
 
-MACD (Moving Average Convergence Divergence)
+## Momentum Indicators
 
-Parabolic SAR
+- **RSI** (Relative Strength Index)
+- **Stochastic Oscillator**
 
-Momentum Indicators
+## Volume Indicators
 
-RSI (Relative Strength Index)
+- **OBV** (On-Balance Volume)
+- **Volume Adjustment (VA)**  
+  - If *C<sub>t</sub> > C<sub>t-1</sub>* → **VA = +VA**  
+  - If *C<sub>t</sub> < C<sub>t-1</sub>* → **VA = −VA**  
+  - Otherwise **VA = 0**
+- **Money Flow Index (MFI)**
 
-Stochastic Oscillator
+## Volatility Indicators
 
-Volume Indicators
+- **Bollinger Bands**  
+  - *Upper Band*  
+  - *Lower Band*
+- **ATR** (Average True Range)
 
-OBV (On‑Balance Volume)
-
-Volume Adjustment (VA)
-
-If Ct > Ct-1 → VA = +VA
-
-If Ct < Ct-1 → VA = −VA
-
-Otherwise VA = 0
-
-Money Flow Index (MFI)
-
-Volatility Indicators
-
-Bollinger Bands
-
-Upper Band
-
-Lower Band
-
-ATR (Average True Range)
